@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins',sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(105, 115, 225);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 25px;
+    font-family: "Poppins",sans-serif;
+    font-size: 25px;  
+}
+nav a{
+    margin-top: 20px;
+}
+nav a button{
+    padding: 14px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color:rgb(255, 255, 255);
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+nav h3{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+nav ul{
+    margin-top: 20px;
+}
+.one {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.two{
+    text-align: center;
+    background-color: rgb(105, 115, 225);
+    width: 600px;
+    margin-left: 26%;
+    margin-top: 50px;
+    border-radius: 8px;
+
+}
+.three {
+    display: flex;
+    padding:30px;
+    margin-left: 50px;
+}
+.three section{
+    height: 80px;
+    width: 500px;
+    background-color: rgb(176, 156, 156);
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+.nav a button:hover{
+    transform: scale(1.20);
+}
+.four{
+    text-align: center;
+    background-color:rgb(172, 172, 172) ;
+    width: 600px;
+    border-radius: 8px;
+    margin-left: 300px;
+
+}
+.four ul li{
+    padding: 10px;
+}
+.four ul{
+    list-style: none;
+}
